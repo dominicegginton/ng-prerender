@@ -5,6 +5,7 @@
   "main": "build/index.js",
   "type": "module",
   "files": ["build"],
+  "repository": "https://github.com/dominicegginton/ng-prerender",
   "scripts": {
     "build": "tsc"
   },
