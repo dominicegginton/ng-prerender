@@ -1,5 +1,6 @@
 {
   "name": "ng-prerender",
+  "description": "Easily pre-render an Angular Application.",
   "version": "0.0.0",
   "main": "build/index.js",
   "type": "module",
