@@ -6,6 +6,7 @@
   "type": "module",
   "files": ["build"],
   "repository": "https://github.com/dominicegginton/ng-prerender",
+  "license": "MIT",
   "scripts": {
     "build": "tsc"
   },
