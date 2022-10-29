@@ -1,10 +1,12 @@
 {
   "name": "ng-prerender",
   "description": "Easily pre-render an Angular Application.",
-  "version": "0.0.0",
+  "version": "0.1.0-0",
   "main": "build/index.js",
   "type": "module",
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "repository": "https://github.com/dominicegginton/ng-prerender",
   "license": "MIT",
   "scripts": {
