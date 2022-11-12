@@ -33,8 +33,9 @@ function writeHTML(dist: string, path: string, html: string) {
 export async function prerender(dist: string, routes: Array<string>) {
   dist = join(process.cwd(), dist);
   /**
-   * Ensure index routes are prepended last as the original
-   * index.html is required for prerender all routes.
+   * Ensure index route is processed last as the original
+   * index.html file built by the Angular CLI is required
+   * to during the pre-rendering process.
    */
   ['', '/'].forEach((path) => {
     if (routes.includes(path))
