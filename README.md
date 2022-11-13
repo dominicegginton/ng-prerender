@@ -4,13 +4,18 @@ What if pre-rendering an Angular application wasn't difficult and didnt require 
 
 ## Documentation
 
-### Install the dependencies
+- [Installation]((#installation))
+- [Setup application modules](#setup-application-modules)
+- [CLI Usage](#cli-usage)
+- [API Usage](#api-useage)
+
+### Installation
 
 ``` shell
 npm install @nguniversal/common ng-prerender
 ```
 
-### Include the **NgUniversal** modules in the Angular application
+### Setup application modules
 
 #### app/app.module.ts (NgModules)
 
@@ -58,7 +63,20 @@ npm install @nguniversal/common ng-prerender
   }).catch((err) => console.error(err));
 ```
 
-### Create a prerender script
+### CLI Usage
+
+#### package.json
+
+``` diff
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
++   "prerender": "npm run build && ng-prerender [dist] [path-one] [path-two] [path-three] ..."
+  },
+```
+
+### API Useage
 
 #### scripts/prerender.mjs
 
@@ -72,19 +90,11 @@ npm install @nguniversal/common ng-prerender
 
 #### package.json
 
-
 ``` diff
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-+   "preprerender": "npm run build",
-+   "prerender": "node scripts/prerender.mjs"
++   "prerender": "npm run build && node scripts/prerender.mjs"
   },
-```
-
-### Run the Prerender script
-
-``` shell
-npm run prerender
 ```
