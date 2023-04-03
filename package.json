@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@types/node": "18.15.10",
-    "typescript": "5.0.2"
+    "typescript": "5.0.3"
   },
   "peerDependencies": {
     "@nguniversal/common": "14.2.0"
