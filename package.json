@@ -20,7 +20,7 @@
     "typescript": "5.1.6"
   },
   "peerDependencies": {
-    "@angular/core": "^14.0.0",
-    "@nguniversal/common": "^14.0.0"
+    "@angular/core": "^14.0.0 || ^15.0.0 || ^16.0.0",
+    "@nguniversal/common": "^14.0.0 || ^15.0.0 || ^16.0.0"
   }
 }
