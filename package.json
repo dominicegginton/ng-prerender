@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@types/node": "20.11.20",
-    "typescript": "5.3.3"
+    "typescript": "5.4.2"
   },
   "peerDependencies": {
     "@angular/core": "^14.0.0 || ^15.0.0 || ^16.0.0",
