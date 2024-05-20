@@ -1,3 +1,6 @@
+> [!IMPORTANT] 
+> **ng-prerender** is archived and no longer maintained - maybe use [analogjs](https://analogjs.org/)?
+
 # ng-prerender
 
 What if pre-rendering an Angular application wasn't difficult and didnt require multiple builds? **ng-prerender** uses [@nguniversal/common/clover](https://github.com/angular/universal/tree/main/modules/common/clover) under the hood to just make it simple.
